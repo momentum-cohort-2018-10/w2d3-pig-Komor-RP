@@ -1,24 +1,24 @@
 # Classes for Pig
 
 ## Dice
-    ### Responsibilities 
+    Responsibilities 
         - Roll
 
-    ### Collaborators
+    Collaborators
 
 
 
 ## Player
-    ### Responsibilities 
+    Responsibilities 
         - Decide to roll or stay
         - Add Points
 
 
-    ### Collaborators
+    Collaborators
 
 
 ## Game
-    ### Responsibilities 
+    Responsibilities 
         - Choose first player
         - Keep track of turn points
         - Alternates turns
@@ -26,6 +26,6 @@
         - Determines the winner
 
 
-    ### Collaborators
+    Collaborators
         -Player
         -Dice
