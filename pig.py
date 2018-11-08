@@ -45,8 +45,7 @@ class Player:
         """
         Asks for input in whether to roll a die.
         """
-        choice = input(f"You currently have {points} points this turn. \
-        Will you roll the die? (y) or (n) ")
+        choice = input(f"You currently have {points} points this turn. Will you roll the die? (y) or (n) ")
         return choice == "y"
 
     def add_points(self, points):
@@ -165,6 +164,7 @@ class Game:
             if self.status is not None:
                 break
 
+        input("Press enter to continue.")
         self.turn.add_points(points)
 
         
