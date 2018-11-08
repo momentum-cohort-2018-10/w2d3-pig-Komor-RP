@@ -131,7 +131,7 @@ class Game:
         Checks the player scores to see if anyone has won.
         Changes the Game status and updates Game games and Game wins
         """
-        if self.turn.score + points >= 20:
+        if self.turn.score + points >= 100:
             print(f"{self.turn} is the winner!")
 
             Game.games += 1
